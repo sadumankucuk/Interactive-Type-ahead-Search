@@ -1,6 +1,6 @@
 import React from 'react';
 
-const InputComponent = ({ icon, placeholder, type, name, onChange }) => {
+const InputComponent = ({ icon, placeholder, type, name, onChange, value }) => {
     return (
         <div className="form_group">
             {
@@ -16,6 +16,7 @@ const InputComponent = ({ icon, placeholder, type, name, onChange }) => {
                 id={name}
                 placeholder={placeholder}
                 onChange={onChange}
+                value={value}
             />
         </div>
     )

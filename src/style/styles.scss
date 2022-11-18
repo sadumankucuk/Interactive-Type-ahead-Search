@@ -1,4 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import "colors";
+
+
 
 html,
 body {
@@ -10,7 +13,17 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-@import "colors";
+footer {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  bottom: 0;
+  width: 100%;
+  p {
+    color: $gray1;
+  }
+
+}
 
 @import "table";
 @import "input";

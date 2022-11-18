@@ -3,9 +3,14 @@ import SearchComponent from './Pages/SearchComponent';
 
 const App = () => {
   return (
-    <div>
-      <SearchComponent/>
-    </div>
+    <>
+      <main>
+        <SearchComponent />
+      </main>
+      <footer>
+        <p>Copyright info or the author</p>
+      </footer>
+    </>
   )
 }
 
