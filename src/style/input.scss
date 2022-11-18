@@ -1,0 +1,27 @@
+.form_group {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    background: $gray1;
+    padding: 25px;
+}
+
+.form_field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid $light-gray5;
+    outline: 0;
+    font-size: 16px;
+    color: $light-gray2;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+    text-overflow: ellipsis;
+}
+
+.form_icon {
+    color: $white;
+    padding: 7px 7px;
+    font-size: 16px;
+}
